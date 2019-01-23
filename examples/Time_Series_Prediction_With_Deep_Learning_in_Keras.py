@@ -1,34 +1,22 @@
 # https://machinelearningmastery.com/time-series-prediction-with-deep-learning-in-python-with-keras/
 # wget https://datamarket.com/data/set/22u3/international-airline-passengers-monthly-totals-in-thousands-jan-49-dec-60#
 
-
-import pandas
-import matplotlib.pyplot as plt
-dataset = pandas.read_csv('international-airline-passengers.csv', usecols=[1], engine='python', skipfooter=3)
-plt.plot(dataset)
-plt.show()
+import sys, os, math
+dir =  os.getcwd()
 
 
 # Multilayer Perceptron Regression
 # ====================================
 import matplotlib.pyplot as plt
-import pandas
+import numpy, pandas
 from keras.models import Sequential
 from keras.layers import Dense
 
 # fix random seed for reproducibility
 numpy.random.seed(7)
 
-
-
 # load the dataset
-dataframe = pandas.read_csv('international-airline-passengers.csv', usecols=[1], engine='python', skipfooter=3)
-dataset = dataframe.values
-dataset = dataset.astype('float32')
-
-
-# load the dataset
-dataframe = pandas.read_csv('international-airline-passengers.csv', usecols=[1], engine='python', skipfooter=3)
+dataframe = pandas.read_csv(os.path.join(dir,'data','international-airline-passengers.csv'), usecols=[1], engine='python', skipfooter=3)
 dataset = dataframe.values
 dataset = dataset.astype('float32')
 
