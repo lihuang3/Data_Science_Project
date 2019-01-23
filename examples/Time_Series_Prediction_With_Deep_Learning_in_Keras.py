@@ -15,7 +15,7 @@ from keras.layers import Dense
 # fix random seed for reproducibility
 numpy.random.seed(7)
 
-# load the dataset
+# load the datasetd
 dataframe = pandas.read_csv(os.path.join(dir,'data','international-airline-passengers.csv'), usecols=[1], engine='python', skipfooter=3)
 dataset = dataframe.values
 dataset = dataset.astype('float32')
@@ -38,16 +38,24 @@ def create_dataset(dataset, look_back=1):
 
 
 # reshape into X=t and Y=t+1
-look_back = 1
+look_back = 3
 trainX, trainY = create_dataset(train, look_back)
 testX, testY = create_dataset(test, look_back)
 
 # create and fit Multilayer Perceptron model
 model = Sequential()
-model.add(Dense(8, input_dim=look_back, activation='relu'))
-model.add(Dense(1))
+if look_back==1:
+  model.add(Dense(8, input_dim=look_back, activation='relu'))
+  model.add(Dense(1))
+  epochs =200
+else:
+  model.add(Dense(16, input_dim=look_back, activation='relu'))
+  model.add(Dense(8, activation='relu'))
+  model.add(Dense(1))
+  epochs = 400
+
 model.compile(loss='mean_squared_error', optimizer='adam')
-model.fit(trainX, trainY, epochs=200, batch_size=2, verbose=2)
+model.fit(trainX, trainY, epochs=epochs, batch_size=2, verbose=2)
 
 # Estimate model performance
 trainScore = model.evaluate(trainX, trainY, verbose=0)
