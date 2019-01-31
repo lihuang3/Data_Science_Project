@@ -15,10 +15,10 @@ numpy.random.seed(7)
 
 # load the datasetd
 # dataframe = pandas.read_csv(os.path.join(dir,'data','Volve production data.csv'), usecols=[1], engine='python')
-dataframe = pandas.read_csv(os.path.join(dir,'data','Volve production data.csv'), index_col=["DATEPRD"], 
+dataframe = pandas.read_csv(os.path.join(dir,'data','Volve production data.csv'), index_col=["DATEPRD", "WELL_BORE_CODE"], 
             usecols=["WELL_BORE_CODE", "ON_STREAM_HRS", "AVG_DOWNHOLE_PRESSURE", "AVG_DOWNHOLE_TEMPERATURE", 
                      "AVG_DP_TUBING", "AVG_ANNULUS_PRESS", "AVG_CHOKE_SIZE_P", "AVG_WHP_P", "AVG_WHT_P",
-                      "DP_CHOKE_SIZE", "BORE_OIL_VOL", "FLOW_KIND"],parse_dates=["DATEPRD"]), engine='python')
+                      "DP_CHOKE_SIZE", "BORE_OIL_VOL", "FLOW_KIND"], parse_dates=["DATEPRD"], engine='python')
 
 # dataset = dataframe.values
 # dataset = dataset.astype('float32')
