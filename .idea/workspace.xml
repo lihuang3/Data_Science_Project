@@ -2,12 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64146b8a-331b-4eb1-9e0d-14347df0a82a" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/data/Volve production data.xlsx" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/Hal_mlp.py" afterPath="$PROJECT_DIR$/examples/Hal_mlp.py" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Li.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/outlierDet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/process0303.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/process0303_v2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/process0303_v3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/process0303_v4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/process0325.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/process_lstm10wi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/prototype.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/visualizeMissingData.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Data_Science_Project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Data_Science_Project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/Hal_mlp.py" beforeDir="false" afterPath="$PROJECT_DIR$/examples/Hal_mlp.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,31 +27,88 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MLP4TimeSeries.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/examples/MLP4TimeSeries.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examples/process0303_v2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="18" column="11" lean-forward="true" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
-              <folding />
+            <state>
+              <caret line="96" column="6" selection-start-line="96" selection-start-column="6" selection-end-line="96" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Hal_mlp.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/examples/Hal_mlp.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examples/process0303_v3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="66" selection-end-column="48" />
-              <folding />
+            <state>
+              <caret line="87" column="45" selection-start-line="87" selection-start-column="45" selection-end-line="87" selection-end-column="45" />
+              <folding>
+                <element signature="e#6035#6446#0" />
+                <element signature="e#6837#7036#0" />
+                <element signature="e#7086#7624#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/examples/process_lstm10wi.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1120">
+              <caret line="174" column="12" lean-forward="true" selection-start-line="174" selection-start-column="12" selection-end-line="174" selection-end-column="12" />
+              <folding>
+                <element signature="e#1939#2350#0" />
+                <element signature="e#2381#2516#0" />
+                <element signature="e#2839#3223#0" />
+                <element signature="e#3262#3531#0" />
+                <element signature="e#3602#4490#0" />
+                <element signature="e#4595#5562#0" />
+                <element signature="e#5697#6631#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>na(</find>
+      <find>shuff</find>
+      <find>empty()</find>
+      <find>to_del</find>
+      <find>empty</find>
+      <find>r2</find>
+      <find>split</find>
+      <find>Stra</find>
+      <find>shuffle</find>
+      <find>evalu</find>
+      <find>vars_mean_dict</find>
+      <find>varlist</find>
+      <find>vars_l</find>
+      <find>[r2]</find>
+      <find>r2metric</find>
+      <find>-1</find>
+      <find>mean, std</find>
+      <find>save_model</find>
+      <find>method</find>
+      <find>dataset</find>
+      <find>mean</find>
+      <find>train_test_split</find>
+      <find>np.mean</find>
+      <find>train_test</find>
+      <find>60</find>
+      <find>lstm</find>
+      <find>lstm10wi</find>
+      <find>100</find>
+      <find>get_model</find>
+      <find>dropou</find>
+      <find>epoch</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -50,27 +119,26 @@
       <list>
         <option value="$PROJECT_DIR$/examples/Time_Series_Prediction_With_Deep_Learning_in_Keras.py" />
         <option value="$PROJECT_DIR$/examples/Hal_mlp.py" />
+        <option value="$PROJECT_DIR$/examples/outlierDet.py" />
+        <option value="$PROJECT_DIR$/examples/prototype.py" />
+        <option value="$PROJECT_DIR$/examples/visualizeMissingData.py" />
+        <option value="$PROJECT_DIR$/examples/process0303.py" />
+        <option value="$PROJECT_DIR$/examples/process0303_v3.py" />
+        <option value="$PROJECT_DIR$/examples/process0303_v2.py" />
+        <option value="$PROJECT_DIR$/examples/process0303_v4.py" />
+        <option value="$PROJECT_DIR$/examples/process0325.py" />
+        <option value="$PROJECT_DIR$/examples/process_lstm10wi.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="149" />
-    <option name="y" value="40" />
-    <option name="width" value="1761" />
-    <option name="height" value="1013" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1892" />
+    <option name="y" value="57" />
+    <option name="width" value="1764" />
+    <option name="height" value="1015" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -87,22 +155,24 @@
               <item name="Data_Science_Project" type="462c0819:PsiDirectoryNode" />
               <item name="examples" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Data_Science_Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Data_Science_Project" type="462c0819:PsiDirectoryNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ThesisPlot" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="Data_Science_Project" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="Data_Science_Project" />
+      </console-settings>
+    </option>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -116,8 +186,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Hal_mlp">
-    <configuration name="Hal_mlp" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.process_lstm10wi">
+    <configuration name="process0303" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Data_Science_Project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -128,13 +199,17 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Data_Science_Project" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/examples/Hal_mlp.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/examples/process0303.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
-    <configuration name="MLP4TimeSeries" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="process0303_v2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Data_Science_Project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -145,13 +220,17 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Data_Science_Project" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/examples/MLP4TimeSeries.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/examples/process0303_v2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
-    <configuration name="Time_Series_Prediction_With_Deep_Learning_in_Keras" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="process0303_v3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Data_Science_Project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -162,27 +241,76 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Data_Science_Project" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/examples/Time_Series_Prediction_With_Deep_Learning_in_Keras.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/examples/process0303_v3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
-    <list size="3">
-      <item index="0" class="java.lang.String" itemvalue="Python.MLP4TimeSeries" />
-      <item index="1" class="java.lang.String" itemvalue="Python.Time_Series_Prediction_With_Deep_Learning_in_Keras" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Hal_mlp" />
+    <configuration name="process0325" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Data_Science_Project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/examples" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/examples/process0325.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="process_lstm10wi" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Data_Science_Project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/examples" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/examples/process_lstm10wi.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.process0303" />
+      <item itemvalue="Python.process0325" />
+      <item itemvalue="Python.process0303_v2" />
+      <item itemvalue="Python.process0303_v3" />
+      <item itemvalue="Python.process_lstm10wi" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Python.Hal_mlp" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Time_Series_Prediction_With_Deep_Learning_in_Keras" />
-        <item index="2" class="java.lang.String" itemvalue="Python.MLP4TimeSeries" />
+      <list>
+        <item itemvalue="Python.process_lstm10wi" />
+        <item itemvalue="Python.process0303_v3" />
+        <item itemvalue="Python.process0303_v2" />
+        <item itemvalue="Python.process0303" />
+        <item itemvalue="Python.process0325" />
       </list>
     </recent_temporary>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -195,124 +323,240 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="149" y="40" width="1761" height="1013" extended-state="0" />
-    <editor active="true" />
+    <frame x="1913" y="-7" width="1488" height="878" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20620972" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33145434" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3990981" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5096661" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13774104" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.20348059" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49794963" weight="0.3393461" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32931727" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32931727" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5020504" side_tool="true" weight="0.319053" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32797858" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Data View" order="3" weight="0.5096661" />
     </layout>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="17" />
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/examples/visualizeMissingData.py</url>
+          <line>303</line>
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/examples/process0303.py</url>
+          <line>848</line>
+          <option name="timeStamp" value="124" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/examples/visualizeMissingData.py</url>
+          <line>279</line>
+          <option name="timeStamp" value="163" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/examples/process0303.py</url>
+          <line>659</line>
+          <option name="timeStamp" value="164" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/examples/process0325.py</url>
+          <line>666</line>
+          <option name="timeStamp" value="171" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/examples/process0303.py</url>
+          <line>550</line>
+          <option name="timeStamp" value="189" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
     </breakpoint-manager>
-    <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/examples/MLP4TimeSeries.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/py3ml/lib/python3.6/site-packages/pandas/io/common.py" />
+    <entry file="file://$USER_HOME$/anaconda3/envs/py3ml/lib/python3.6/site-packages/pandas/core/common.py" />
+    <entry file="file://$USER_HOME$/anaconda3/envs/py3ml/lib/python3.6/site-packages/pandas/core/ops.py" />
+    <entry file="file://$USER_HOME$/anaconda3/envs/py3ml/lib/python3.6/site-packages/pandas/io/parsers.py" />
+    <entry file="file://$USER_HOME$/anaconda3/envs/py3ml/lib/python3.6/site-packages/numpy/core/_methods.py" />
+    <entry file="file://$USER_HOME$/anaconda3/envs/py3ml/lib/python3.6/site-packages/numpy/core/fromnumeric.py" />
+    <entry file="file://$USER_HOME$/anaconda3/envs/py3ml/lib/python3.6/site-packages/scipy/stats/kde.py" />
+    <entry file="file://$USER_HOME$/anaconda3/envs/py3ml/lib/python3.6/site-packages/seaborn/categorical.py" />
     <entry file="file://$PROJECT_DIR$/examples/Time_Series_Prediction_With_Deep_Learning_in_Keras.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="56" column="58" lean-forward="true" selection-start-line="56" selection-start-column="58" selection-end-line="56" selection-end-column="58" />
-          <folding />
+        <state relative-caret-position="468">
+          <caret line="47" column="33" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/examples/MLP4TimeSeries.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+        <state>
+          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/MLP4TimeSeries.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/MLP4TimeSeries.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="18" column="11" lean-forward="true" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/anaconda3/envs/py3ml/lib/python3.6/site-packages/pandas/io/common.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="402" column="0" lean-forward="false" selection-start-line="402" selection-start-column="0" selection-end-line="402" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/Time_Series_Prediction_With_Deep_Learning_in_Keras.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="56" column="58" lean-forward="true" selection-start-line="56" selection-start-column="58" selection-end-line="56" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/anaconda3/envs/py3ml/lib/python3.6/site-packages/pandas/core/common.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="106" column="0" lean-forward="false" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/anaconda3/envs/py3ml/lib/python3.6/site-packages/pandas/io/parsers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="1451" column="0" lean-forward="false" selection-start-line="1451" selection-start-column="0" selection-end-line="1451" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/anaconda3/envs/py3ml/lib/python3.6/site-packages/pandas/core/ops.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="1168" column="0" lean-forward="false" selection-start-line="1168" selection-start-column="0" selection-end-line="1168" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/py3ml/lib/python3.6/site-packages/pandas/core/internals.py" />
+    <entry file="file://$USER_HOME$/anaconda3/envs/py3ml/lib/python3.6/site-packages/matplotlib/axes/_subplots.py" />
+    <entry file="file://$USER_HOME$/anaconda3/envs/py3ml/lib/python3.6/site-packages/pandas/core/generic.py" />
+    <entry file="file://$USER_HOME$/anaconda3/envs/py3ml/lib/python3.6/site-packages/matplotlib/figure.py" />
+    <entry file="file://$USER_HOME$/anaconda3/envs/py3ml/lib/python3.6/site-packages/numpy/core/shape_base.py" />
     <entry file="file://$PROJECT_DIR$/examples/Hal_mlp.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="66" selection-end-column="48" />
+        <state relative-caret-position="3420">
+          <caret line="190" column="12" selection-start-line="190" selection-start-column="12" selection-end-line="190" selection-end-column="12" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/outlierDet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2016">
+          <caret line="112" selection-start-line="112" selection-end-line="114" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/visualizeMissingData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="182" selection-start-line="182" selection-end-line="182" />
+          <folding>
+            <element signature="e#2379#3417#0" />
+            <element signature="e#3457#3497#0" />
+            <element signature="e#6371#6401#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/prototype.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="112" selection-start-line="112" selection-end-line="113" />
+          <folding>
+            <marker date="1550186888228" expanded="true" signature="4589:4622" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1294">
+          <caret line="1592" column="66" selection-start-line="1592" selection-start-column="66" selection-end-line="1592" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/py3ml/lib/python3.6/site-packages/sklearn/model_selection/_validation.py" />
+    <entry file="file://$USER_HOME$/anaconda3/envs/py3ml/lib/python3.6/site-packages/keras/engine/training.py" />
+    <entry file="file://$PROJECT_DIR$/examples/process0303.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3744">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding>
+            <element signature="e#2777#3815#0" />
+            <element signature="e#3855#3924#0" />
+            <element signature="e#4887#4953#0" />
+            <element signature="e#7299#7332#0" />
+            <element signature="e#8680#8713#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/process0303_v4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
+          <folding>
+            <element signature="e#6035#6446#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/py3ml/lib/python3.6/codecs.py" />
+    <entry file="file://$USER_HOME$/anaconda3/envs/py3ml/lib/python3.6/site-packages/numpy/lib/function_base.py" />
+    <entry file="file://$USER_HOME$/anaconda3/envs/py3ml/lib/python3.6/site-packages/keras/engine/training_utils.py" />
+    <entry file="file://$PROJECT_DIR$/examples/process0303_v2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="96" column="6" selection-start-line="96" selection-start-column="6" selection-end-line="96" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/process0303_v3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="87" column="45" selection-start-line="87" selection-start-column="45" selection-end-line="87" selection-end-column="45" />
+          <folding>
+            <element signature="e#6035#6446#0" />
+            <element signature="e#6837#7036#0" />
+            <element signature="e#7086#7624#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/cnn_lstm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+          <folding>
+            <element signature="e#41#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/process0325.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="192" column="19" selection-start-line="192" selection-start-column="19" selection-end-line="192" selection-end-column="19" />
+          <folding>
+            <element signature="e#2901#3939#0" />
+            <element signature="e#3979#4048#0" />
+            <element signature="e#5011#5077#0" />
+            <element signature="e#7423#7456#0" />
+            <element signature="e#24728#24729#0" />
+            <element signature="e#26038#26071#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/process_lstm10wi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1120">
+          <caret line="174" column="12" lean-forward="true" selection-start-line="174" selection-start-column="12" selection-end-line="174" selection-end-column="12" />
+          <folding>
+            <element signature="e#1939#2350#0" />
+            <element signature="e#2381#2516#0" />
+            <element signature="e#2839#3223#0" />
+            <element signature="e#3262#3531#0" />
+            <element signature="e#3602#4490#0" />
+            <element signature="e#4595#5562#0" />
+            <element signature="e#5697#6631#0" />
+          </folding>
         </state>
       </provider>
     </entry>
