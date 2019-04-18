@@ -2,22 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64146b8a-331b-4eb1-9e0d-14347df0a82a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Li.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/outlierDet.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/process0303.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/process0303_v2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/process0303_v3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/process0303_v4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/process0325.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/process_lstm10wi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/prototype.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/visualizeMissingData.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Data_Science_Project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Data_Science_Project.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/Hal_mlp.py" beforeDir="false" afterPath="$PROJECT_DIR$/examples/Hal_mlp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/models/NO15_9_F_11H_model.h5" beforeDir="false" afterPath="$PROJECT_DIR$/examples/models/NO15_9_F_11H_model.h5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/models/NO15_9_F_12H_model.h5" beforeDir="false" afterPath="$PROJECT_DIR$/examples/models/NO15_9_F_12H_model.h5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/models/NO15_9_F_14H_model.h5" beforeDir="false" afterPath="$PROJECT_DIR$/examples/models/NO15_9_F_14H_model.h5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/models/NO15_9_F_15D_model.h5" beforeDir="false" afterPath="$PROJECT_DIR$/examples/models/NO15_9_F_15D_model.h5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/models/NO15_9_F_1C_model.h5" beforeDir="false" afterPath="$PROJECT_DIR$/examples/models/NO15_9_F_1C_model.h5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/process_lstm10wi.py" beforeDir="false" afterPath="$PROJECT_DIR$/examples/process_lstm10wi.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,8 +21,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/examples/process0303_v2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="96" column="6" selection-start-line="96" selection-start-column="6" selection-end-line="96" selection-end-column="6" />
+            <state relative-caret-position="114">
+              <caret line="14" column="7" selection-start-line="14" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -39,7 +30,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/examples/process0303_v3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="1653">
               <caret line="87" column="45" selection-start-line="87" selection-start-column="45" selection-end-line="87" selection-end-column="45" />
               <folding>
                 <element signature="e#6035#6446#0" />
@@ -53,16 +44,23 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/examples/process_lstm10wi.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1120">
-              <caret line="174" column="12" lean-forward="true" selection-start-line="174" selection-start-column="12" selection-end-line="174" selection-end-column="12" />
+            <state relative-caret-position="429">
+              <caret line="400" column="44" selection-start-line="400" selection-start-column="44" selection-end-line="400" selection-end-column="44" />
               <folding>
+                <element signature="e#415#698#0" />
+                <element signature="e#1166#1286#0" />
+                <element signature="e#1308#1593#0" />
                 <element signature="e#1939#2350#0" />
                 <element signature="e#2381#2516#0" />
-                <element signature="e#2839#3223#0" />
-                <element signature="e#3262#3531#0" />
-                <element signature="e#3602#4490#0" />
-                <element signature="e#4595#5562#0" />
-                <element signature="e#5697#6631#0" />
+                <element signature="e#2559#2808#0" />
+                <element signature="e#2840#3224#0" />
+                <element signature="e#3263#3532#0" />
+                <element signature="e#3603#4451#0" />
+                <element signature="e#4634#5601#0" />
+                <element signature="e#5696#6630#0" />
+                <element signature="e#6995#7433#0" />
+                <element signature="e#7507#9918#0" />
+                <element signature="e#9996#12602#0" />
               </folding>
             </state>
           </provider>
@@ -79,14 +77,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>shuff</find>
-      <find>empty()</find>
-      <find>to_del</find>
-      <find>empty</find>
-      <find>r2</find>
-      <find>split</find>
-      <find>Stra</find>
-      <find>shuffle</find>
       <find>evalu</find>
       <find>vars_mean_dict</find>
       <find>varlist</find>
@@ -99,16 +89,24 @@
       <find>method</find>
       <find>dataset</find>
       <find>mean</find>
-      <find>train_test_split</find>
       <find>np.mean</find>
       <find>train_test</find>
       <find>60</find>
       <find>lstm</find>
       <find>lstm10wi</find>
-      <find>100</find>
       <find>get_model</find>
       <find>dropou</find>
       <find>epoch</find>
+      <find>dict</find>
+      <find>well_dict</find>
+      <find>100</find>
+      <find>split_sequence</find>
+      <find>train_test_split</find>
+      <find>128</find>
+      <find>256</find>
+      <find>get_mo</find>
+      <find>lstm_model</find>
+      <find>seed</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -131,18 +129,17 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1892" />
-    <option name="y" value="57" />
-    <option name="width" value="1764" />
-    <option name="height" value="1015" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1927" />
+    <option name="y" value="-3" />
+    <option name="width" value="1860" />
+    <option name="height" value="1093" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -159,12 +156,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ThesisPlot" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -323,15 +321,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1913" y="-7" width="1488" height="878" extended-state="6" />
+    <frame x="1926" y="-2" width="1488" height="874" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13774104" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.20348059" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49794963" weight="0.3393461" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.51278603" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49794963" weight="0.33913043" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -387,6 +385,28 @@
         </breakpoint>
       </default-breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>for well in uniq_well_code:
+  wellname = well.replace(&quot;/&quot;,&quot;&quot;)
+  wellname = wellname.replace(&quot;-&quot;,&quot;&quot;)
+  wellname = wellname.replace(&quot; &quot;,&quot;&quot;)
+  well_dict[well] =  wellname[wellname.find('F')+1:]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>for well in uniq_well_code:
+  wellname = well.replace(&quot;/&quot;,&quot;_&quot;)
+  wellname = wellname.replace(&quot;-&quot;,&quot;_&quot;)
+  wellname = wellname.replace(&quot; &quot;,&quot;&quot;)
+  well_dict[well] =  wellname[wellname.find('F')+1:]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/anaconda3/envs/py3ml/lib/python3.6/site-packages/pandas/io/common.py" />
@@ -459,7 +479,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -467,7 +486,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1294">
           <caret line="1592" column="66" selection-start-line="1592" selection-start-column="66" selection-end-line="1592" selection-end-column="66" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -500,25 +518,6 @@
     <entry file="file://$USER_HOME$/anaconda3/envs/py3ml/lib/python3.6/codecs.py" />
     <entry file="file://$USER_HOME$/anaconda3/envs/py3ml/lib/python3.6/site-packages/numpy/lib/function_base.py" />
     <entry file="file://$USER_HOME$/anaconda3/envs/py3ml/lib/python3.6/site-packages/keras/engine/training_utils.py" />
-    <entry file="file://$PROJECT_DIR$/examples/process0303_v2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="96" column="6" selection-start-line="96" selection-start-column="6" selection-end-line="96" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/process0303_v3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="87" column="45" selection-start-line="87" selection-start-column="45" selection-end-line="87" selection-end-column="45" />
-          <folding>
-            <element signature="e#6035#6446#0" />
-            <element signature="e#6837#7036#0" />
-            <element signature="e#7086#7624#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/examples/cnn_lstm.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -544,18 +543,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/examples/process0303_v3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1653">
+          <caret line="87" column="45" selection-start-line="87" selection-start-column="45" selection-end-line="87" selection-end-column="45" />
+          <folding>
+            <element signature="e#6035#6446#0" />
+            <element signature="e#6837#7036#0" />
+            <element signature="e#7086#7624#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/process0303_v2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="14" column="7" selection-start-line="14" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/envs/py37/Lib/site-packages/numpy/core/fromnumeric.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="3117" selection-start-line="3117" selection-end-line="3117" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/examples/process_lstm10wi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1120">
-          <caret line="174" column="12" lean-forward="true" selection-start-line="174" selection-start-column="12" selection-end-line="174" selection-end-column="12" />
+        <state relative-caret-position="429">
+          <caret line="400" column="44" selection-start-line="400" selection-start-column="44" selection-end-line="400" selection-end-column="44" />
           <folding>
+            <element signature="e#415#698#0" />
+            <element signature="e#1166#1286#0" />
+            <element signature="e#1308#1593#0" />
             <element signature="e#1939#2350#0" />
             <element signature="e#2381#2516#0" />
-            <element signature="e#2839#3223#0" />
-            <element signature="e#3262#3531#0" />
-            <element signature="e#3602#4490#0" />
-            <element signature="e#4595#5562#0" />
-            <element signature="e#5697#6631#0" />
+            <element signature="e#2559#2808#0" />
+            <element signature="e#2840#3224#0" />
+            <element signature="e#3263#3532#0" />
+            <element signature="e#3603#4451#0" />
+            <element signature="e#4634#5601#0" />
+            <element signature="e#5696#6630#0" />
+            <element signature="e#6995#7433#0" />
+            <element signature="e#7507#9918#0" />
+            <element signature="e#9996#12602#0" />
           </folding>
         </state>
       </provider>
