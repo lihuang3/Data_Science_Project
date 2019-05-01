@@ -69,7 +69,7 @@ def r2metric(label, pred):
 # define model
 def get_model(n_steps, neurons):
   model = Sequential()
-  model.add(LSTM(neurons, activation='relu', input_shape=(n_steps, num_features - 1)))
+  model.add(LSTM(neurons, activation='tanh', input_shape=(n_steps, num_features - 1)))
   # model.add(LSTM(50, activation='relu'))
   model.add(Dense(1))
   model.compile(optimizer='adam', loss='mse', metrics=[r2metric])
@@ -105,8 +105,8 @@ def train_test_split(sequence, n_steps, num_features, norm=True):
   X, y = shuffle(X, y)
 
   data_size = np.shape(sequence)[0]
-  train_X, test_X = X[:int(0.8*data_size), :], X[int(0.8*data_size):, :]
-  train_y, test_y = y[:int(0.8*data_size)], y[int(0.8*data_size):]
+  train_X, test_X = X[int(0.2*data_size):, :], X[:int(0.2*data_size), :]
+  train_y, test_y = y[int(0.2*data_size):], y[:int(0.2*data_size)]
 
   if norm:
     Xmean, Xstd = np.mean(train_X, axis=0), np.std(train_X, axis=0)
@@ -351,7 +351,7 @@ Norm by each well group, train-test split by each well
 """
 Method 4
 """
-def group_model(n_steps=7, neurons=64, epochs=80, well_group = None):
+def group_model(modelname, n_steps=7, neurons=64, epochs=80, well_group = None):
   print(well_group)
   print('nstep = ', n_steps, ' epochs = ',epochs)
   train_X = np.empty((0, n_steps, num_features - 1))
@@ -370,7 +370,7 @@ def group_model(n_steps=7, neurons=64, epochs=80, well_group = None):
     # make sure sequences are sorted by dates
     subdataset = dataset[well_code_col==well, :]
     data_size = np.shape(subdataset)[0]
-    subdataset = subdataset[datesbywell.argsort()]
+    # subdataset = subdataset[datesbywell.argsort()]
     output = train_test_split(subdataset, n_steps, num_features, norm=individual_norm)
     train_X = np.append(train_X, output[0], axis=0)
     train_y = np.append(train_y, output[1], axis=0)
@@ -385,9 +385,10 @@ def group_model(n_steps=7, neurons=64, epochs=80, well_group = None):
     test_X = (test_X - Xmean) / Xstd
     test_y = (test_y - ymean) / ystd
 
-  train_X, train_y = shuffle(train_X, train_y)
+  for _ in range(5):
+    train_X, train_y = shuffle(train_X, train_y)
 
-  model = lstm_model('lstmG1', neurons=neurons, n_steps=n_steps, epochs=epochs,
+  model = lstm_model('lstmG_%s'%(modelname), neurons=neurons, n_steps=n_steps, epochs=epochs,
                       X=train_X, y=train_y, cross_val=False, run_train=True)
 
   mse, r2 = model.evaluate(test_X, test_y, verbose=0)
@@ -395,14 +396,16 @@ def group_model(n_steps=7, neurons=64, epochs=80, well_group = None):
   print('mse = %.3f '%(mse) , 'r2 = %.3f'%(r2))
 
 # well_group = ['12H','14H']
-# group_model(epochs=80, well_group=well_group)
+# group_model(modelname='G1',epochs=80, well_group=well_group)
+#
+# well_group = ['11H', '1C']
+# n_steps=9
+# epoch=90
+# group_model(modelname=str(epoch)+'G3',n_steps=n_steps, neurons=64, epochs=epoch, well_group=well_group)
 
-well_group = ['15D','11H', '1C']
-group_model(n_steps=7, neurons=64, epochs=60, well_group=well_group)
-
-well_group = ['15D','1C']
-group_model(neurons=60, epochs=100, well_group=well_group)
-
-# well_group = ['11H']
-# group_model(neurons=64, epochs=80, well_group=well_group)
+#
+# well_group = ['15D']
+# for epoch in [110,110,110,110,110,110]:
+#   group_model(modelname='G1_%d'%(epoch),n_steps=9, neurons=64, epochs=epoch, well_group=well_group)
+#
 

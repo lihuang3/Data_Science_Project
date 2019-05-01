@@ -2,12 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64146b8a-331b-4eb1-9e0d-14347df0a82a" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/examples/process03mlp.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/models/NO15_9_F_11H_model.h5" beforeDir="false" afterPath="$PROJECT_DIR$/examples/models/NO15_9_F_11H_model.h5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/models/NO15_9_F_12H_model.h5" beforeDir="false" afterPath="$PROJECT_DIR$/examples/models/NO15_9_F_12H_model.h5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/models/NO15_9_F_14H_model.h5" beforeDir="false" afterPath="$PROJECT_DIR$/examples/models/NO15_9_F_14H_model.h5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/models/NO15_9_F_15D_model.h5" beforeDir="false" afterPath="$PROJECT_DIR$/examples/models/NO15_9_F_15D_model.h5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/models/NO15_9_F_1C_model.h5" beforeDir="false" afterPath="$PROJECT_DIR$/examples/models/NO15_9_F_1C_model.h5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/models/ANNULUS_PRESS_model.h5" beforeDir="false" afterPath="$PROJECT_DIR$/examples/models/ANNULUS_PRESS_model.h5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/models/ANNULUS_PRESS_model.json" beforeDir="false" afterPath="$PROJECT_DIR$/examples/models/ANNULUS_PRESS_model.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/models/AVG_DOWNHOLE_PRESSURE_model.h5" beforeDir="false" afterPath="$PROJECT_DIR$/examples/models/AVG_DOWNHOLE_PRESSURE_model.h5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/models/AVG_DOWNHOLE_PRESSURE_model.json" beforeDir="false" afterPath="$PROJECT_DIR$/examples/models/AVG_DOWNHOLE_PRESSURE_model.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/models/AVG_DOWNHOLE_TEMPERATURE_model.h5" beforeDir="false" afterPath="$PROJECT_DIR$/examples/models/AVG_DOWNHOLE_TEMPERATURE_model.h5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/models/AVG_DOWNHOLE_TEMPERATURE_model.json" beforeDir="false" afterPath="$PROJECT_DIR$/examples/models/AVG_DOWNHOLE_TEMPERATURE_model.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/models/AVG_DP_TUBING_model.h5" beforeDir="false" afterPath="$PROJECT_DIR$/examples/models/AVG_DP_TUBING_model.h5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/models/AVG_DP_TUBING_model.json" beforeDir="false" afterPath="$PROJECT_DIR$/examples/models/AVG_DP_TUBING_model.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/models/BORE_OIL_VOL_model.h5" beforeDir="false" afterPath="$PROJECT_DIR$/examples/models/BORE_OIL_VOL_model.h5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/models/BORE_OIL_VOL_model.json" beforeDir="false" afterPath="$PROJECT_DIR$/examples/models/BORE_OIL_VOL_model.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/models/lstmG1_model.h5" beforeDir="false" afterPath="$PROJECT_DIR$/examples/models/lstmG1_model.h5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/models/lstmG1_model.json" beforeDir="false" afterPath="$PROJECT_DIR$/examples/models/lstmG1_model.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/examples/process_lstm10wi.py" beforeDir="false" afterPath="$PROJECT_DIR$/examples/process_lstm10wi.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,8 +29,24 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/examples/process0303_v2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
+            <state relative-caret-position="266">
               <caret line="14" column="7" selection-start-line="14" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examples/process0303.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2185">
+              <caret line="243" column="14" selection-start-line="243" selection-start-column="12" selection-end-line="243" selection-end-column="14" />
+              <folding>
+                <element signature="e#2777#3815#0" />
+                <element signature="e#3855#3924#0" />
+                <element signature="e#4887#4953#0" />
+                <element signature="e#7299#7332#0" />
+                <element signature="e#8680#8713#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -42,25 +66,43 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/examples/process_lstm10wi.py">
+        <entry file="file://$PROJECT_DIR$/examples/process03mlp.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="400" column="44" selection-start-line="400" selection-start-column="44" selection-end-line="400" selection-end-column="44" />
+            <state relative-caret-position="209">
+              <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
               <folding>
-                <element signature="e#415#698#0" />
-                <element signature="e#1166#1286#0" />
-                <element signature="e#1308#1593#0" />
-                <element signature="e#1939#2350#0" />
-                <element signature="e#2381#2516#0" />
-                <element signature="e#2559#2808#0" />
-                <element signature="e#2840#3224#0" />
-                <element signature="e#3263#3532#0" />
-                <element signature="e#3603#4451#0" />
-                <element signature="e#4634#5601#0" />
-                <element signature="e#5696#6630#0" />
-                <element signature="e#6995#7433#0" />
-                <element signature="e#7507#9918#0" />
-                <element signature="e#9996#12602#0" />
+                <element signature="e#0#20#0" expanded="true" />
+                <element signature="e#1997#2456#0" />
+                <element signature="e#2750#6918#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examples/process0303_v4.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2242">
+              <caret line="118" selection-start-line="115" selection-end-line="118" />
+              <folding>
+                <element signature="e#6035#6446#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examples/process0325.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="511">
+              <caret line="543" column="49" selection-start-line="543" selection-start-column="49" selection-end-line="543" selection-end-column="49" />
+              <folding>
+                <element signature="e#2901#3939#0" />
+                <element signature="e#3979#4048#0" />
+                <element signature="e#5011#5077#0" />
+                <element signature="e#7423#7456#0" />
+                <element signature="e#24728#24729#0" />
+                <element signature="e#26038#26071#0" />
               </folding>
             </state>
           </provider>
@@ -77,12 +119,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>evalu</find>
-      <find>vars_mean_dict</find>
-      <find>varlist</find>
-      <find>vars_l</find>
-      <find>[r2]</find>
-      <find>r2metric</find>
       <find>-1</find>
       <find>mean, std</find>
       <find>save_model</find>
@@ -94,7 +130,6 @@
       <find>60</find>
       <find>lstm</find>
       <find>lstm10wi</find>
-      <find>get_model</find>
       <find>dropou</find>
       <find>epoch</find>
       <find>dict</find>
@@ -107,6 +142,13 @@
       <find>get_mo</find>
       <find>lstm_model</find>
       <find>seed</find>
+      <find>sploi</find>
+      <find>split</find>
+      <find>nfolds</find>
+      <find>legend</find>
+      <find>get_model</find>
+      <find>monthDict</find>
+      <find>t_dict</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -126,20 +168,21 @@
         <option value="$PROJECT_DIR$/examples/process0303_v4.py" />
         <option value="$PROJECT_DIR$/examples/process0325.py" />
         <option value="$PROJECT_DIR$/examples/process_lstm10wi.py" />
+        <option value="$PROJECT_DIR$/examples/process03mlp.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1927" />
-    <option name="y" value="-3" />
-    <option name="width" value="1860" />
-    <option name="height" value="1093" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="-1714" />
+    <option name="width" value="1522" />
+    <option name="height" value="1153" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -156,13 +199,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Python" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -184,7 +226,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.process_lstm10wi">
+  <component name="RunManager" selected="Python.process03mlp">
     <configuration name="process0303" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Data_Science_Project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -248,7 +290,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="process0325" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="process03mlp" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Data_Science_Project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -260,7 +302,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/examples/process0325.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/examples/process03mlp.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -292,18 +334,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.process0303" />
-      <item itemvalue="Python.process0325" />
       <item itemvalue="Python.process0303_v2" />
       <item itemvalue="Python.process0303_v3" />
+      <item itemvalue="Python.process03mlp" />
       <item itemvalue="Python.process_lstm10wi" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.process03mlp" />
         <item itemvalue="Python.process_lstm10wi" />
         <item itemvalue="Python.process0303_v3" />
         <item itemvalue="Python.process0303_v2" />
         <item itemvalue="Python.process0303" />
-        <item itemvalue="Python.process0325" />
       </list>
     </recent_temporary>
   </component>
@@ -321,15 +363,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1926" y="-2" width="1488" height="874" extended-state="0" />
+    <frame x="-1755" y="0" width="1217" height="922" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13774104" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16934802" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.51278603" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49794963" weight="0.33913043" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2629583" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49794963" weight="0.42608696" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -405,6 +448,48 @@
   well_dict[well] =  wellname[wellname.find('F')+1:]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>r2m(test_y, np.squeeze(pred_y))</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>r2metric(test_y, np.squeeze(pred_y))</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>r2metric(test_y ,np.squeeze(pred_y))</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>np.squeeze(pred_y)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>test_y</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>pred_y</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>r2metric(np.squeeze(test_y), np.squeeze(pred_y))</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>r2metric(test_y, pred_y)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
@@ -491,30 +576,6 @@
     </entry>
     <entry file="file://$USER_HOME$/anaconda3/envs/py3ml/lib/python3.6/site-packages/sklearn/model_selection/_validation.py" />
     <entry file="file://$USER_HOME$/anaconda3/envs/py3ml/lib/python3.6/site-packages/keras/engine/training.py" />
-    <entry file="file://$PROJECT_DIR$/examples/process0303.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3744">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-          <folding>
-            <element signature="e#2777#3815#0" />
-            <element signature="e#3855#3924#0" />
-            <element signature="e#4887#4953#0" />
-            <element signature="e#7299#7332#0" />
-            <element signature="e#8680#8713#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/process0303_v4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
-          <folding>
-            <element signature="e#6035#6446#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/anaconda3/envs/py3ml/lib/python3.6/codecs.py" />
     <entry file="file://$USER_HOME$/anaconda3/envs/py3ml/lib/python3.6/site-packages/numpy/lib/function_base.py" />
     <entry file="file://$USER_HOME$/anaconda3/envs/py3ml/lib/python3.6/site-packages/keras/engine/training_utils.py" />
@@ -528,17 +589,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/process0325.py">
+    <entry file="file://C:/ProgramData/Anaconda3/envs/py37/Lib/site-packages/numpy/core/fromnumeric.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="192" column="19" selection-start-line="192" selection-start-column="19" selection-end-line="192" selection-end-column="19" />
+        <state relative-caret-position="112">
+          <caret line="3117" selection-start-line="3117" selection-end-line="3117" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/process0303_v2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="7" selection-start-line="14" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/process0303.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2185">
+          <caret line="243" column="14" selection-start-line="243" selection-start-column="12" selection-end-line="243" selection-end-column="14" />
           <folding>
-            <element signature="e#2901#3939#0" />
-            <element signature="e#3979#4048#0" />
-            <element signature="e#5011#5077#0" />
-            <element signature="e#7423#7456#0" />
-            <element signature="e#24728#24729#0" />
-            <element signature="e#26038#26071#0" />
+            <element signature="e#2777#3815#0" />
+            <element signature="e#3855#3924#0" />
+            <element signature="e#4887#4953#0" />
+            <element signature="e#7299#7332#0" />
+            <element signature="e#8680#8713#0" />
           </folding>
         </state>
       </provider>
@@ -555,39 +629,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/process0303_v2.py">
+    <entry file="file://$PROJECT_DIR$/examples/process0303_v4.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="14" column="7" selection-start-line="14" selection-end-line="15" />
+        <state relative-caret-position="2242">
+          <caret line="118" selection-start-line="115" selection-end-line="118" />
+          <folding>
+            <element signature="e#6035#6446#0" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/ProgramData/Anaconda3/envs/py37/Lib/site-packages/numpy/core/fromnumeric.py">
+    <entry file="file://$PROJECT_DIR$/examples/process0325.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="3117" selection-start-line="3117" selection-end-line="3117" />
+        <state relative-caret-position="511">
+          <caret line="543" column="49" selection-start-line="543" selection-start-column="49" selection-end-line="543" selection-end-column="49" />
+          <folding>
+            <element signature="e#2901#3939#0" />
+            <element signature="e#3979#4048#0" />
+            <element signature="e#5011#5077#0" />
+            <element signature="e#7423#7456#0" />
+            <element signature="e#24728#24729#0" />
+            <element signature="e#26038#26071#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/process03mlp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+            <element signature="e#1997#2456#0" />
+            <element signature="e#2750#6918#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/examples/process_lstm10wi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="400" column="44" selection-start-line="400" selection-start-column="44" selection-end-line="400" selection-end-column="44" />
+        <state relative-caret-position="19">
+          <caret line="79" column="24" selection-start-line="79" selection-start-column="24" selection-end-line="79" selection-end-column="24" />
           <folding>
-            <element signature="e#415#698#0" />
-            <element signature="e#1166#1286#0" />
-            <element signature="e#1308#1593#0" />
-            <element signature="e#1939#2350#0" />
-            <element signature="e#2381#2516#0" />
-            <element signature="e#2559#2808#0" />
-            <element signature="e#2840#3224#0" />
-            <element signature="e#3263#3532#0" />
-            <element signature="e#3603#4451#0" />
-            <element signature="e#4634#5601#0" />
-            <element signature="e#5696#6630#0" />
-            <element signature="e#6995#7433#0" />
-            <element signature="e#7507#9918#0" />
-            <element signature="e#9996#12602#0" />
+            <element signature="e#1999#2410#0" />
+            <element signature="e#2628#2881#0" />
+            <element signature="e#7071#7524#0" />
           </folding>
         </state>
       </provider>
