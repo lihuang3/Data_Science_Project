@@ -54,8 +54,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/examples/process0303_v3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1653">
-              <caret line="87" column="45" selection-start-line="87" selection-start-column="45" selection-end-line="87" selection-end-column="45" />
+            <state relative-caret-position="1235">
+              <caret line="65" column="39" selection-start-line="65" selection-start-column="39" selection-end-line="65" selection-end-column="39" />
               <folding>
                 <element signature="e#6035#6446#0" />
                 <element signature="e#6837#7036#0" />
@@ -66,14 +66,11 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/examples/process03mlp.py">
+        <entry file="file://$PROJECT_DIR$/examples/mlp_imputation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+            <state>
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
-                <element signature="e#1997#2456#0" />
-                <element signature="e#2750#6918#0" />
               </folding>
             </state>
           </provider>
@@ -94,7 +91,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/examples/process0325.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="511">
+            <state relative-caret-position="7885">
               <caret line="543" column="49" selection-start-line="543" selection-start-column="49" selection-end-line="543" selection-end-column="49" />
               <folding>
                 <element signature="e#2901#3939#0" />
@@ -172,10 +169,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="-1714" />
-    <option name="width" value="1522" />
-    <option name="height" value="1153" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="107" />
+    <option name="y" value="235" />
+    <option name="width" value="1523" />
+    <option name="height" value="810" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -226,8 +224,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.process03mlp">
-    <configuration name="process0303" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.mlp_imputation">
+    <configuration name="mlp_imputation" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Data_Science_Project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -239,7 +237,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/examples/process0303.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/examples/mlp_imputation.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -333,7 +331,7 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.process0303" />
+      <item itemvalue="Python.mlp_imputation" />
       <item itemvalue="Python.process0303_v2" />
       <item itemvalue="Python.process0303_v3" />
       <item itemvalue="Python.process03mlp" />
@@ -341,11 +339,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.mlp_imputation" />
         <item itemvalue="Python.process03mlp" />
         <item itemvalue="Python.process_lstm10wi" />
         <item itemvalue="Python.process0303_v3" />
         <item itemvalue="Python.process0303_v2" />
-        <item itemvalue="Python.process0303" />
       </list>
     </recent_temporary>
   </component>
@@ -363,15 +361,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1755" y="0" width="1217" height="922" extended-state="0" />
+    <frame x="-7" y="-7" width="1488" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16934802" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13774104" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2629583" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4605087" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49794963" weight="0.42608696" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -596,6 +594,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/examples/process03mlp.py" />
+    <entry file="file://$PROJECT_DIR$/examples/process_lstm10wi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="79" column="24" selection-start-line="79" selection-start-column="24" selection-end-line="79" selection-end-column="24" />
+          <folding>
+            <element signature="e#1999#2410#0" />
+            <element signature="e#2628#2881#0" />
+            <element signature="e#7071#7524#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/examples/process0303_v2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -619,8 +630,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/examples/process0303_v3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1653">
-          <caret line="87" column="45" selection-start-line="87" selection-start-column="45" selection-end-line="87" selection-end-column="45" />
+        <state relative-caret-position="1235">
+          <caret line="65" column="39" selection-start-line="65" selection-start-column="39" selection-end-line="65" selection-end-column="39" />
           <folding>
             <element signature="e#6035#6446#0" />
             <element signature="e#6837#7036#0" />
@@ -641,7 +652,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/examples/process0325.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
+        <state relative-caret-position="7885">
           <caret line="543" column="49" selection-start-line="543" selection-start-column="49" selection-end-line="543" selection-end-column="49" />
           <folding>
             <element signature="e#2901#3939#0" />
@@ -654,26 +665,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/process03mlp.py">
+    <entry file="file://$PROJECT_DIR$/examples/mlp_imputation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+        <state>
           <folding>
             <element signature="e#0#20#0" expanded="true" />
-            <element signature="e#1997#2456#0" />
-            <element signature="e#2750#6918#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/process_lstm10wi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="79" column="24" selection-start-line="79" selection-start-column="24" selection-end-line="79" selection-end-column="24" />
-          <folding>
-            <element signature="e#1999#2410#0" />
-            <element signature="e#2628#2881#0" />
-            <element signature="e#7071#7524#0" />
           </folding>
         </state>
       </provider>
